@@ -33,7 +33,6 @@ class DriverInputViewController: UIViewController {
         
         // Set some of UIDatePicker properties
         datePicker.timeZone = NSTimeZone.local
-        datePicker.backgroundColor = UIColor.white
         
         datePicker.minimumDate = Date()
         

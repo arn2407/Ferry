@@ -1,0 +1,6 @@
+framework module Pods_FerryApp {
+  umbrella header "Pods-FerryApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

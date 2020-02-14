@@ -12,7 +12,6 @@ import UIKit
 class PickerInputView: NSObject {
     let pickerView: UIPickerView = {
        let picker = UIPickerView()
-        picker.backgroundColor = .white
         return picker
     }()
     
