@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB5D82A23F67C3200E0B16F /* DriverInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5D82923F67C3200E0B16F /* DriverInputViewController.swift */; };
+		6EB5D82C23F67C5000E0B16F /* PassengerInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5D82B23F67C5000E0B16F /* PassengerInputViewController.swift */; };
+		6EB5D82E23F67C6E00E0B16F /* FerriesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5D82D23F67C6E00E0B16F /* FerriesListTableViewController.swift */; };
+		6EB5D83123F67CC700E0B16F /* FerryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5D83023F67CC700E0B16F /* FerryTableViewCell.swift */; };
+		6EB5D83423F67FCC00E0B16F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5D83323F67FCC00E0B16F /* Model.swift */; };
+		6EB5D83623F6842A00E0B16F /* PickerInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5D83523F6842A00E0B16F /* PickerInputView.swift */; };
+		6EB5D83823F6920900E0B16F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5D83723F6920900E0B16F /* StartViewController.swift */; };
+		6EC1E00323F6717500CDAB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1E00223F6717500CDAB02 /* AppDelegate.swift */; };
+		6EC1E00523F6717500CDAB02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1E00423F6717500CDAB02 /* SceneDelegate.swift */; };
+		6EC1E00723F6717500CDAB02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1E00623F6717500CDAB02 /* ViewController.swift */; };
+		6EC1E00A23F6717500CDAB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1E00823F6717500CDAB02 /* Main.storyboard */; };
+		6EC1E00D23F6717500CDAB02 /* FerryApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1E00B23F6717500CDAB02 /* FerryApp.xcdatamodeld */; };
+		6EC1E00F23F6717700CDAB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1E00E23F6717700CDAB02 /* Assets.xcassets */; };
+		6EC1E01223F6717700CDAB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1E01023F6717700CDAB02 /* LaunchScreen.storyboard */; };
+		6EC1E01D23F6717800CDAB02 /* FerryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1E01C23F6717800CDAB02 /* FerryAppTests.swift */; };
+		6EC1E02823F6717800CDAB02 /* FerryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1E02723F6717800CDAB02 /* FerryAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EC1E01923F6717800CDAB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC1DFF723F6717400CDAB02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC1DFFE23F6717500CDAB02;
+			remoteInfo = FerryApp;
+		};
+		6EC1E02423F6717800CDAB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC1DFF723F6717400CDAB02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC1DFFE23F6717500CDAB02;
+			remoteInfo = FerryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EB5D82923F67C3200E0B16F /* DriverInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverInputViewController.swift; sourceTree = "<group>"; };
+		6EB5D82B23F67C5000E0B16F /* PassengerInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerInputViewController.swift; sourceTree = "<group>"; };
+		6EB5D82D23F67C6E00E0B16F /* FerriesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerriesListTableViewController.swift; sourceTree = "<group>"; };
+		6EB5D83023F67CC700E0B16F /* FerryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryTableViewCell.swift; sourceTree = "<group>"; };
+		6EB5D83323F67FCC00E0B16F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6EB5D83523F6842A00E0B16F /* PickerInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerInputView.swift; sourceTree = "<group>"; };
+		6EB5D83723F6920900E0B16F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		6EC1DFFF23F6717500CDAB02 /* FerryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FerryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC1E00223F6717500CDAB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EC1E00423F6717500CDAB02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EC1E00623F6717500CDAB02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EC1E00923F6717500CDAB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EC1E00C23F6717500CDAB02 /* FerryApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FerryApp.xcdatamodel; sourceTree = "<group>"; };
+		6EC1E00E23F6717700CDAB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EC1E01123F6717700CDAB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EC1E01323F6717700CDAB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC1E01823F6717800CDAB02 /* FerryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FerryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC1E01C23F6717800CDAB02 /* FerryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryAppTests.swift; sourceTree = "<group>"; };
+		6EC1E01E23F6717800CDAB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC1E02323F6717800CDAB02 /* FerryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FerryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC1E02723F6717800CDAB02 /* FerryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryAppUITests.swift; sourceTree = "<group>"; };
+		6EC1E02923F6717800CDAB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EC1DFFC23F6717500CDAB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC1E01523F6717800CDAB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC1E02023F6717800CDAB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB5D82823F67BAE00E0B16F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1E00623F6717500CDAB02 /* ViewController.swift */,
+				6EB5D82923F67C3200E0B16F /* DriverInputViewController.swift */,
+				6EB5D82B23F67C5000E0B16F /* PassengerInputViewController.swift */,
+				6EB5D82D23F67C6E00E0B16F /* FerriesListTableViewController.swift */,
+				6EB5D83723F6920900E0B16F /* StartViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6EB5D82F23F67CA300E0B16F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EB5D83023F67CC700E0B16F /* FerryTableViewCell.swift */,
+				6EB5D83523F6842A00E0B16F /* PickerInputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EB5D83223F67FC000E0B16F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EB5D83323F67FCC00E0B16F /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EC1DFF623F6717400CDAB02 = {
+			isa = PBXGroup;
+			children = (
+				6EC1E00123F6717500CDAB02 /* FerryApp */,
+				6EC1E01B23F6717800CDAB02 /* FerryAppTests */,
+				6EC1E02623F6717800CDAB02 /* FerryAppUITests */,
+				6EC1E00023F6717500CDAB02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EC1E00023F6717500CDAB02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1DFFF23F6717500CDAB02 /* FerryApp.app */,
+				6EC1E01823F6717800CDAB02 /* FerryAppTests.xctest */,
+				6EC1E02323F6717800CDAB02 /* FerryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EC1E00123F6717500CDAB02 /* FerryApp */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1E00223F6717500CDAB02 /* AppDelegate.swift */,
+				6EC1E00423F6717500CDAB02 /* SceneDelegate.swift */,
+				6EB5D83223F67FC000E0B16F /* Model */,
+				6EB5D82F23F67CA300E0B16F /* Views */,
+				6EB5D82823F67BAE00E0B16F /* View Controllers */,
+				6EC1E00823F6717500CDAB02 /* Main.storyboard */,
+				6EC1E00E23F6717700CDAB02 /* Assets.xcassets */,
+				6EC1E01023F6717700CDAB02 /* LaunchScreen.storyboard */,
+				6EC1E01323F6717700CDAB02 /* Info.plist */,
+				6EC1E00B23F6717500CDAB02 /* FerryApp.xcdatamodeld */,
+			);
+			path = FerryApp;
+			sourceTree = "<group>";
+		};
+		6EC1E01B23F6717800CDAB02 /* FerryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1E01C23F6717800CDAB02 /* FerryAppTests.swift */,
+				6EC1E01E23F6717800CDAB02 /* Info.plist */,
+			);
+			path = FerryAppTests;
+			sourceTree = "<group>";
+		};
+		6EC1E02623F6717800CDAB02 /* FerryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1E02723F6717800CDAB02 /* FerryAppUITests.swift */,
+				6EC1E02923F6717800CDAB02 /* Info.plist */,
+			);
+			path = FerryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EC1DFFE23F6717500CDAB02 /* FerryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC1E02C23F6717800CDAB02 /* Build configuration list for PBXNativeTarget "FerryApp" */;
+			buildPhases = (
+				6EC1DFFB23F6717500CDAB02 /* Sources */,
+				6EC1DFFC23F6717500CDAB02 /* Frameworks */,
+				6EC1DFFD23F6717500CDAB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FerryApp;
+			productName = FerryApp;
+			productReference = 6EC1DFFF23F6717500CDAB02 /* FerryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EC1E01723F6717800CDAB02 /* FerryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC1E02F23F6717800CDAB02 /* Build configuration list for PBXNativeTarget "FerryAppTests" */;
+			buildPhases = (
+				6EC1E01423F6717800CDAB02 /* Sources */,
+				6EC1E01523F6717800CDAB02 /* Frameworks */,
+				6EC1E01623F6717800CDAB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EC1E01A23F6717800CDAB02 /* PBXTargetDependency */,
+			);
+			name = FerryAppTests;
+			productName = FerryAppTests;
+			productReference = 6EC1E01823F6717800CDAB02 /* FerryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EC1E02223F6717800CDAB02 /* FerryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC1E03223F6717800CDAB02 /* Build configuration list for PBXNativeTarget "FerryAppUITests" */;
+			buildPhases = (
+				6EC1E01F23F6717800CDAB02 /* Sources */,
+				6EC1E02023F6717800CDAB02 /* Frameworks */,
+				6EC1E02123F6717800CDAB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EC1E02523F6717800CDAB02 /* PBXTargetDependency */,
+			);
+			name = FerryAppUITests;
+			productName = FerryAppUITests;
+			productReference = 6EC1E02323F6717800CDAB02 /* FerryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EC1DFF723F6717400CDAB02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Arun Kumar";
+				TargetAttributes = {
+					6EC1DFFE23F6717500CDAB02 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					6EC1E01723F6717800CDAB02 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6EC1DFFE23F6717500CDAB02;
+					};
+					6EC1E02223F6717800CDAB02 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6EC1DFFE23F6717500CDAB02;
+					};
+				};
+			};
+			buildConfigurationList = 6EC1DFFA23F6717500CDAB02 /* Build configuration list for PBXProject "FerryApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EC1DFF623F6717400CDAB02;
+			productRefGroup = 6EC1E00023F6717500CDAB02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EC1DFFE23F6717500CDAB02 /* FerryApp */,
+				6EC1E01723F6717800CDAB02 /* FerryAppTests */,
+				6EC1E02223F6717800CDAB02 /* FerryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EC1DFFD23F6717500CDAB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC1E01223F6717700CDAB02 /* LaunchScreen.storyboard in Resources */,
+				6EC1E00F23F6717700CDAB02 /* Assets.xcassets in Resources */,
+				6EC1E00A23F6717500CDAB02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC1E01623F6717800CDAB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC1E02123F6717800CDAB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EC1DFFB23F6717500CDAB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB5D82C23F67C5000E0B16F /* PassengerInputViewController.swift in Sources */,
+				6EB5D82E23F67C6E00E0B16F /* FerriesListTableViewController.swift in Sources */,
+				6EC1E00723F6717500CDAB02 /* ViewController.swift in Sources */,
+				6EC1E00323F6717500CDAB02 /* AppDelegate.swift in Sources */,
+				6EB5D82A23F67C3200E0B16F /* DriverInputViewController.swift in Sources */,
+				6EB5D83823F6920900E0B16F /* StartViewController.swift in Sources */,
+				6EB5D83623F6842A00E0B16F /* PickerInputView.swift in Sources */,
+				6EC1E00D23F6717500CDAB02 /* FerryApp.xcdatamodeld in Sources */,
+				6EB5D83123F67CC700E0B16F /* FerryTableViewCell.swift in Sources */,
+				6EB5D83423F67FCC00E0B16F /* Model.swift in Sources */,
+				6EC1E00523F6717500CDAB02 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC1E01423F6717800CDAB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC1E01D23F6717800CDAB02 /* FerryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC1E01F23F6717800CDAB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC1E02823F6717800CDAB02 /* FerryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EC1E01A23F6717800CDAB02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC1DFFE23F6717500CDAB02 /* FerryApp */;
+			targetProxy = 6EC1E01923F6717800CDAB02 /* PBXContainerItemProxy */;
+		};
+		6EC1E02523F6717800CDAB02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC1DFFE23F6717500CDAB02 /* FerryApp */;
+			targetProxy = 6EC1E02423F6717800CDAB02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EC1E00823F6717500CDAB02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC1E00923F6717500CDAB02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EC1E01023F6717700CDAB02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC1E01123F6717700CDAB02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EC1E02A23F6717800CDAB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EC1E02B23F6717800CDAB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EC1E02D23F6717800CDAB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUNZ936NY6;
+				INFOPLIST_FILE = FerryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarro.FerryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EC1E02E23F6717800CDAB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUNZ936NY6;
+				INFOPLIST_FILE = FerryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarro.FerryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EC1E03023F6717800CDAB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUNZ936NY6;
+				INFOPLIST_FILE = FerryAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarro.FerryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FerryApp.app/FerryApp";
+			};
+			name = Debug;
+		};
+		6EC1E03123F6717800CDAB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUNZ936NY6;
+				INFOPLIST_FILE = FerryAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarro.FerryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FerryApp.app/FerryApp";
+			};
+			name = Release;
+		};
+		6EC1E03323F6717800CDAB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUNZ936NY6;
+				INFOPLIST_FILE = FerryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarro.FerryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FerryApp;
+			};
+			name = Debug;
+		};
+		6EC1E03423F6717800CDAB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUNZ936NY6;
+				INFOPLIST_FILE = FerryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarro.FerryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FerryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EC1DFFA23F6717500CDAB02 /* Build configuration list for PBXProject "FerryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC1E02A23F6717800CDAB02 /* Debug */,
+				6EC1E02B23F6717800CDAB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC1E02C23F6717800CDAB02 /* Build configuration list for PBXNativeTarget "FerryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC1E02D23F6717800CDAB02 /* Debug */,
+				6EC1E02E23F6717800CDAB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC1E02F23F6717800CDAB02 /* Build configuration list for PBXNativeTarget "FerryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC1E03023F6717800CDAB02 /* Debug */,
+				6EC1E03123F6717800CDAB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC1E03223F6717800CDAB02 /* Build configuration list for PBXNativeTarget "FerryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC1E03323F6717800CDAB02 /* Debug */,
+				6EC1E03423F6717800CDAB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6EC1E00B23F6717500CDAB02 /* FerryApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6EC1E00C23F6717500CDAB02 /* FerryApp.xcdatamodel */,
+			);
+			currentVersion = 6EC1E00C23F6717500CDAB02 /* FerryApp.xcdatamodel */;
+			path = FerryApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6EC1DFF723F6717400CDAB02 /* Project object */;
+}
