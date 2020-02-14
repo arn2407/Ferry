@@ -12,7 +12,7 @@ class StartViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // start view controller
         // Do any additional setup after loading the view.
     }
     
