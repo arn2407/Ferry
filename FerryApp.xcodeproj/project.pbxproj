@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,9 @@
 		6EC1E01223F6717700CDAB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1E01023F6717700CDAB02 /* LaunchScreen.storyboard */; };
 		6EC1E01D23F6717800CDAB02 /* FerryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1E01C23F6717800CDAB02 /* FerryAppTests.swift */; };
 		6EC1E02823F6717800CDAB02 /* FerryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1E02723F6717800CDAB02 /* FerryAppUITests.swift */; };
+		967198A423F706C9007A98B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 967198A323F706C9007A98B0 /* GoogleService-Info.plist */; };
+		967198A623F70DE6007A98B0 /* Ferry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967198A523F70DE6007A98B0 /* Ferry.swift */; };
+		96761FFA23F7A9EA0085BB7B /* FerryTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96761FF923F7A9EA0085BB7B /* FerryTrip.swift */; };
 		BA4890F3345B8D5C9191F6C5 /* Pods_FerryApp_FerryAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF682E1EC6EFD8BCEF3BE0E /* Pods_FerryApp_FerryAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +77,9 @@
 		6EC1E02923F6717800CDAB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A970E911EB2D490FF6A0BDB /* Pods-FerryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FerryAppTests.release.xcconfig"; path = "Target Support Files/Pods-FerryAppTests/Pods-FerryAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C6E219E607B78B3F1EAD99B /* Pods_FerryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FerryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		967198A323F706C9007A98B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		967198A523F70DE6007A98B0 /* Ferry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ferry.swift; sourceTree = "<group>"; };
+		96761FF923F7A9EA0085BB7B /* FerryTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryTrip.swift; sourceTree = "<group>"; };
 		D79350351A502160283E6E3A /* Pods-FerryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FerryApp.debug.xcconfig"; path = "Target Support Files/Pods-FerryApp/Pods-FerryApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F743A6E33082D450A5092813 /* Pods-FerryApp-FerryAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FerryApp-FerryAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FerryApp-FerryAppUITests/Pods-FerryApp-FerryAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FEC887F5688B0BE20C6C2E38 /* Pods_FerryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FerryAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,10 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				6EC1E00623F6717500CDAB02 /* ViewController.swift */,
+				6EB5D83723F6920900E0B16F /* StartViewController.swift */,
 				6EB5D82923F67C3200E0B16F /* DriverInputViewController.swift */,
 				6EB5D82B23F67C5000E0B16F /* PassengerInputViewController.swift */,
 				6EB5D82D23F67C6E00E0B16F /* FerriesListTableViewController.swift */,
-				6EB5D83723F6920900E0B16F /* StartViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -132,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				6EB5D83323F67FCC00E0B16F /* Model.swift */,
+				967198A523F70DE6007A98B0 /* Ferry.swift */,
+				96761FF923F7A9EA0085BB7B /* FerryTrip.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,6 +179,7 @@
 				6EC1E01023F6717700CDAB02 /* LaunchScreen.storyboard */,
 				6EC1E01323F6717700CDAB02 /* Info.plist */,
 				6EC1E00B23F6717500CDAB02 /* FerryApp.xcdatamodeld */,
+				967198A323F706C9007A98B0 /* GoogleService-Info.plist */,
 			);
 			path = FerryApp;
 			sourceTree = "<group>";
@@ -213,7 +222,6 @@
 				69FDD474444B4C3CBC73C66E /* Pods-FerryAppTests.debug.xcconfig */,
 				8A970E911EB2D490FF6A0BDB /* Pods-FerryAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -325,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EC1E01223F6717700CDAB02 /* LaunchScreen.storyboard in Resources */,
+				967198A423F706C9007A98B0 /* GoogleService-Info.plist in Resources */,
 				6EC1E00F23F6717700CDAB02 /* Assets.xcassets in Resources */,
 				6EC1E00A23F6717500CDAB02 /* Main.storyboard in Resources */,
 			);
@@ -426,11 +435,13 @@
 				6EC1E00323F6717500CDAB02 /* AppDelegate.swift in Sources */,
 				6EB5D82A23F67C3200E0B16F /* DriverInputViewController.swift in Sources */,
 				6EB5D83823F6920900E0B16F /* StartViewController.swift in Sources */,
+				967198A623F70DE6007A98B0 /* Ferry.swift in Sources */,
 				6EB5D83623F6842A00E0B16F /* PickerInputView.swift in Sources */,
 				6EC1E00D23F6717500CDAB02 /* FerryApp.xcdatamodeld in Sources */,
 				6EB5D83123F67CC700E0B16F /* FerryTableViewCell.swift in Sources */,
 				6EB5D83423F67FCC00E0B16F /* Model.swift in Sources */,
 				6EC1E00523F6717500CDAB02 /* SceneDelegate.swift in Sources */,
+				96761FFA23F7A9EA0085BB7B /* FerryTrip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
